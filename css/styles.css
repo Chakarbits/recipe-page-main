@@ -87,4 +87,17 @@ select {
   --color-brown-800: hsl(14, 45%, 36%);
 
   --color-white: hsl(0, 0%, 100%);
+
+  /* Typography */
+  --fs-40: 2.5rem;
+  --fs-28: 1.75rem;
+  --fs-20: 1.25rem;
+  --fs-16: 1rem;
+
+  --fw-700: 700;
+  --fw-600: 600;
+  --fw-400: 400;
+
+  --lh-150: 1.5;
+  --lh-100: 1;
 }
