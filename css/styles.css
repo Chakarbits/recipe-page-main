@@ -33,6 +33,10 @@ html:focus-within {
 
 /* Set core body defaults */
 body {
+  font-family: "Outfit", serif;
+
+  font-weight: var(--fw-400);
+  font-size: var(--fs-16);
   min-height: 100vh;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
@@ -100,4 +104,28 @@ select {
 
   --lh-150: 1.5;
   --lh-100: 1;
+}
+
+/* Receipe */
+
+.receipe {
+  background-color: var(--color-whites);
+  color: var(--color-stone-600);
+}
+
+.mobile-container {
+  padding: 0 2rem;
+}
+
+.receipe__primary-heading {
+  margin-top: 2.5rem;
+  font-family: "Young Serif", serif;
+  font-size: 2rem;
+  font-weight: var(--fw-400);
+  line-height: 1;
+  color: var(--color-stone-900);
+}
+
+.receipe__description-paragraph {
+  margin-top: 1.5rem;
 }
