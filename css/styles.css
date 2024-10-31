@@ -129,3 +129,35 @@ select {
 .receipe__description-paragraph {
   margin-top: 1.5rem;
 }
+
+/* Receipe Preparation Section */
+.receipe .receipe__preparation {
+  padding: 1.5rem;
+  margin-top: 2rem;
+  background-color: var(--color-rose-50);
+  border-radius: 12px;
+}
+
+.receipe__subheading {
+  font-size: var(--fs-20);
+  color: var(--color-rose-800);
+  font-weight: var(--fw-600);
+}
+
+ul li {
+  padding-left: 1rem;
+  color: var(--color-stone-600);
+  margin-bottom: 0.5rem;
+}
+
+ul li:last-child {
+  margin-bottom: 0;
+}
+
+ul {
+  padding-left: 1.5rem;
+}
+
+ul li::marker {
+  color: var(--color-brown-800);
+}
